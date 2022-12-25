@@ -11,6 +11,7 @@ public static void main(String args[]) {
 				int t=a[j+1];
 				a[j+1]=a[j];
 				a[j]=t;
+                    System.out.println(a+b);
 			}
 		}
 	}
